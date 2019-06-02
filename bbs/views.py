@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+def post_list(request):
+    return render(request, 'bbs/post_list.html', {})
+    
 def index(request):
     #return render(request, 'bbs/index.html')#テンプレート(htmlファイル)を呼び出すショートカット関数
     context = {
@@ -16,3 +19,4 @@ def index2(request):
         'player2s': ['勇者2', '戦士2', '魔法使い22', '忍者2']
     }
     return render(request, 'bbs/index.html', context)
+    
