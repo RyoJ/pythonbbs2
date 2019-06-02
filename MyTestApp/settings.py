@@ -26,6 +26,7 @@ SECRET_KEY = 'y$tzngl%_w3n+k+iwq1$)(iwsaqoz5&#nv702!5vpb3b4d43=&'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'tan0ry0.pythonanywhere.com',
     '18.191.39.203',
     '18.223.166.248',
     #'3.16.113.10',
