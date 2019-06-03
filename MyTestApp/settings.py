@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1', 
     '.pythonanywhere.com',
+    'tan0ry0.pythonanywhere.com',
     '18.191.39.203',
     '18.223.166.248',
     '18.221.83.11',
