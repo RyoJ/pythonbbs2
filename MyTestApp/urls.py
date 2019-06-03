@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('bbs/', include('bbs.urls')),
+    #path('bbs/', include('bbs.urls')),
     path('admin/', admin.site.urls),
-    path('', include('bbs.urls')),
+    path('', include('bbs.urls')),#'http://127.0.0.1:8000/' に来たリクエストは blog.urls へリダイレクトするようになり、それ以降はそちらを参照するようになります。
 ]
